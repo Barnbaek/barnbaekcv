@@ -1,0 +1,163 @@
+.gridheader {
+  grid-area: gridheader;
+  text-align: center;
+}
+
+.datamatiker {
+  grid-area: datamatiker;
+  text-align: center;
+}
+
+.datamatikercontent {
+  grid-area: datamatikercontent;
+}
+
+.skills {
+  grid-area: skills;
+  text-align: center;
+}
+
+.skillscontent{
+  grid-area: skillscontent;
+}
+
+.erfaring {
+  grid-area: erfaring;
+  text-align: center;
+}
+
+.erfaringcontent {
+  grid-area: erfaringcontent;
+}
+
+.erhvervskompetencer {
+  grid-area: erhvervskompetencer;
+  text-align: center;
+}
+
+.erhvervskompetencercontent{
+  grid-area: erhvervskompetencercontent;
+}
+
+.sprog {
+  grid-area: sprog;
+  text-align: center;
+}
+
+.sprogcontent{
+  grid-area: sprogcontent;
+}
+
+.personlig {
+  grid-area: personlig;
+  text-align: center;
+}
+
+.personligcontent{
+  grid-area: personligcontent;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+  'gridheader gridheader gridheader' 
+  'datamatiker datamatikercontent datamatikercontent'
+  'skills skillscontent skillscontent' 
+  'erfaring erfaringcontent erfaringcontent'
+  'erhvervskompetencer erhvervskompetencercontent erhvervskompetencercontent'
+  'sprog sprogcontent sprogcontent'
+  'personlig personligcontent personligcontent'
+  'login login login';
+  grid-gap: 10px;
+  background-color: #ffffff;
+  padding: 10px;
+  margin: auto 20% auto 20%;
+  column-gap: 10%;
+}
+
+.grid-container>div {
+  background-color: #ffffff;
+  padding: 20px 0;
+}
+
+.inline-li {
+  float: left;
+  list-style: none;
+}
+
+.inline-li:before {
+  content: '\ffee';
+  margin-right: 1.5em;
+}
+
+.contact
+{
+  background-color: #eff6ff;
+  padding: 140px 100px;
+  height: 100vh;
+}
+
+
+
+.login
+{
+  background-color: #ffffff;
+  padding: 50px;
+  grid-area: login;
+}
+
+@media screen and (max-width:600px)
+{
+
+    .contact
+{
+    padding: 100px 25px;
+}
+}
+
+
+
+
+/*Social media icons styling*/
+
+.social
+{
+    text-align: center;
+    margin-top: 25px;  
+}
+
+
+.fa 
+{
+    padding-top: 7px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+}
+
+.fa:hover 
+{
+    opacity: 0.7;
+}
+
+.fa-facebook 
+{
+    background: #4267B2;
+    color: white;
+}
+
+.fa-linkedin
+{
+    background: #0e76a8;
+    color: white;
+}
+
+.fa-instagram
+{
+    background: #8a3ab9;
+    color: white;
+}

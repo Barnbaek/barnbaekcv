@@ -1,0 +1,23 @@
+<section class="projects">
+<div class="container">
+    <h1 class="text-center">All projects</h1>
+
+    <div class="row mt-5">
+        <div class="col-lg-3 mb-5" *ngFor="let project of projects">
+            <div class="box shadow-sm" style="text-align: center;">
+                <img src="{{project.image}}" width="100%">
+                <h4 class="mt-2 centering">{{project.name}}</h4>
+                <p class="mt-2">{{project.description}}</p>
+                <button class="btn btn-sm btn-primary mt-2">Click here</button>
+            </div>
+
+        </div>
+    </div>
+
+
+
+</div>
+
+
+
+</section>

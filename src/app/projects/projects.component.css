@@ -1,0 +1,29 @@
+.projects
+{
+    background-color: #eff6ff;
+    padding: 50px 100px;
+}
+.box
+{
+    background-color: #ffffff;
+}
+
+.centering
+{
+    text-align: center;
+}
+
+.btn
+{
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px)
+{
+
+    .projects
+    {
+        background-color: #eff6ff;
+        padding: 50px 10px;
+    }
+}
